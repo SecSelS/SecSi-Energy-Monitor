@@ -4,7 +4,7 @@
 </br>
 <h1 align="center" text-align="center" display="center"><a href="https://secsels.com"><img src="https://github.com/SecSelS/assets/blob/main/copyright_protected_assets/SecSi.png" alt="SecSelS - Secure Selfhosted Software" width="150px"><a> Energy Monitor</h1>
 
-<a href="https://secsels.com">SecSelS.com</a> is a company specialized in installing, programming and inventing solutions especially in the Smart Home Sector. Together with Hatrix Electronics and <a href="https://www.luxmetering.lu/">Luxmetering</a> we invented this board to hookup every P1 Meter in Luxemburg and other countries having Smart Meters on the P1 standard. In light of the Energy-crysis and to help everyone to make his home or business more sustainable, we decided to opensource this device and make it compatible not only with our smart home solution, but also with other opensource Smart Home Systems.
+<a href="https://secsels.com">SecSelS.com</a> is a company specialized in installing, programming and inventing solutions especially in the Smart Home Sector. Together with Hatrix Electronics and <a href="https://www.luxmetering.lu/">Luxmetering</a> we invented this board to hookup every P1 Meter in Luxemburg and other countries having Smart Meters on the P1 standard. In light of the Energy-crysis and to help everyone to make his or her home or business more sustainable, we decided to opensource this device and make it compatible not only with our smart home solution, but also with other opensource Smart Home Systems.
   
 ## Features List ##
 ###

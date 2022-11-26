@@ -10,7 +10,7 @@
 ###
 * 2x P1 Port reader connected to Hardware-Uart -> read two meters precicely at the same Time.
 * Hardware-Uart Jumpers -> Use second Uart either for second P1, or for USB-C connection to programm the board
-* P1 Passthrough Jumper -> Connect either a second device to the first P1, or directly to the ESP32
+* P1 Passthrough Jumper -> Connect either a second P1 device to the first P1, or directly to the ESP32
 * Lan, Wifi and Bluetooth interfaces
 * 2x Pulsecounter-Interface -> Hokkup your Watermeter or Solar-System, and read the Data.
 * Additional GPIO's for additional Sensors

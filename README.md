@@ -32,7 +32,7 @@ You can buy a manufactured device here:
   * First make sure you have set the jumpers right for flashing. Jumpers JP7 and JP8 must be connected, UART0 is used for programming. Also make sure you don't connect any p1 device yet!
   * This tutorial is meant for the setup with <a href="https://esphome.io/">ESPHome</a>, so make sure you install it on you PC if you dont run it somewhere else. Read the guide for installing ESP-Home on your PC -> https://esphome.io/guides/installing_esphome.html
   * The Yaml-Files a preprogrammed for Luxembourg, but you can alter them to work with Belgium P1 too. Also pulse counters and other devices are not included, but you can always append them to your configuration and connect them to the board. If you want to use the board for other purposes as p1 counter, you can write your own yaml of course.
-  * Make sure you have esphome-flasher <a href="https://github.com/esphome/esphome-flasher">esphome-flasher</a> installed, as the config is the easiest with that.
+  * Make sure you have <a href="https://github.com/esphome/esphome-flasher">esphome-flasher</a> installed, as the config is the easiest with that.
   * Download the config yaml and the secrets yaml to your pc
   * If you're in Luxemburg, make sure you have your DSMR-Keys ready. In Luxemburg you can ask them with your energy-provider per Mail.
   ### First Steps ###

@@ -46,8 +46,9 @@ You can buy a manufactured device here:
 ### Additional configuration ###
   * If you use a second p1 Meter, make sure to set the jumpers right! Kindly refer to the hardware documentation in the repository
 ### Known Issues, To be done and Limitations ###
-  * Because of the DSMR component and the encryption in Luxemburg, the second p1 port will not be interpreted by ESP-Home yet...You can use it only as passthrough at the moment
-  * We're working on an enclosure, which will also be opensourced (metal and 3d-printer ready). You'll find the data here, and probably on Thigverse
+  * Because of the DSMR component and the encryption in Luxemburg, the second p1 port will not be interpreted by ESP-Home yet...You can use it only as passthrough at the moment.
+  * We're working on an enclosure, which will also be opensourced (metal and 3d-printer ready). You'll find the data here, and probably on Thingverse.
+  * At the time of opensourcing this device, our onlineshop shop.secsels.com is not online yet. We give our best to sell as fast as possible to you! We'll keep you updated!
   
 ## Thank You! ##
   We wanted to thank the opensource-community and especially the developers of <a href="https://esphome.io/">ESPHome</a>, and of course our Partner <a href="http://hatrixelectronics.com">Hatrix Electronics</a>! Without you our device would not be possible! We hope that we can give back more to the community in the future. If you like our device, don't hesitate to star it =). If you don't want to configure it yourself, or have problems doing it, simply contact our company and we will find a way to help you =) -> https://secsels.com/kontakt/

@@ -1,4 +1,4 @@
-<p align="center"><a href="https://secsels.com"><img src="https://github.com/SecSelS/assets/blob/main/copyright_protected_assets/3_PNG.png" alt="SecSelS - Secure Selfhosted Software" width="70%" height= "auto"><a><p>
+<p align="center"><a href="https://secsels.com"><img src="https://github.com/SecSelS/assets/blob/main/copyright_protected_assets/Logo%20gro%C3%9F.png" alt="SecSelS - Secure Selfhosted Software" width="70%" height= "auto"><a><p>
   <p margin: 35px></p>
 <br>
 </br>

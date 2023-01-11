@@ -28,7 +28,7 @@ You can buy a manufactured device here:
 ###
 
   
-## How to flash ESP-Home ##
+## How to flash ESPHome ##
   ### Prerequisites ###
   * First make sure you have set the jumpers right for flashing. Jumpers JP7 and JP8 must be connected, UART0 is used for programming. Also make sure you don't connect any P1 device yet!
   * This tutorial is meant for the setup with <a href="https://esphome.io/">ESPHome</a>, so make sure you install it on you PC if you dont run it somewhere else. Read the guide for installing ESP-Home on your PC -> https://esphome.io/guides/installing_esphome.html
@@ -48,7 +48,7 @@ You can buy a manufactured device here:
 ### Additional configuration ###
   * If you use a second P1 meter, make sure to set the jumpers right! Kindly refer to the hardware documentation in the repository, and the known issues for Luxemburg
 ### Known issues, To be done and Limitations ###
-  * Because of the DSMR component and the encryption in Luxemburg, the second P1 port is not interpreted by ESP-Home yet...You can use it only as passthrough at the moment.
+  * Because of the DSMR component and the encryption in Luxemburg, the second P1 port is not interpreted by ESPHome yet...You can use it only as passthrough at the moment.
   * We're working on an enclosure, which will also be opensourced (metal and 3d-printer ready). You'll find the data here, and probably on Thingverse.
   * At the time of opensourcing this device, our onlineshop shop.secsels.com is not online yet. We give our best to sell as fast as possible to you! We'll keep you updated!
   

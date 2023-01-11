@@ -57,7 +57,8 @@ uart:
 # Here the second P1 UART is defined (just uncomment if you use
 # a second meter)
 #  - baud_rate: 115200
-#    rx_pin: D4
+#    rx_pin: GPIO3
+#    inverted: true
 #    rx_buffer_size: 1700
 #    id: uart_p1_2
 

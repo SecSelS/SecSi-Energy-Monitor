@@ -30,8 +30,8 @@ You can buy a manufactured device here:
 ## How to flash ESPHome ##
   ### Prerequisites ###
   * First make sure you have set the jumpers right for flashing. Jumpers JP7 and JP8 must be connected, UART0 is used for programming. Also make sure you don't connect any P1 device yet!
-  * This tutorial is meant for the setup with <a href="https://esphome.io/">ESPHome</a>, so make sure you install it on you PC if you dont run it somewhere else. Read the guide for installing ESP-Home on your PC -> https://esphome.io/guides/installing_esphome.html
-  * The Yaml-Files are preprogrammed for Luxembourg, but you can alter them to work with Belgium P1 too. Also pulse counters and other devices are not included, but you can always append them to your configuration and connect them to the board. If you want to use the board for other purposes as p1 counter, you can write your own yaml of course.
+  * This tutorial is meant for the setup with <a href="https://esphome.io/">ESPHome</a>, so make sure you install it on you PC if you dont run it somewhere else. Read the guide for installing ESPHome on your PC -> https://esphome.io/guides/installing_esphome.html
+  * The Yaml-Files are preprogrammed for Luxembourg, but you can alter them to work with Belgium P1 too. Also pulse counters and other devices are not included, but you can always append them to your configuration and connect them to the board. If you want to use the board for other purposes as P1 interface, you can write your own yaml of course.
   * Make sure you have <a href="https://github.com/esphome/esphome-flasher">esphome-flasher</a> installed, as the config is the easiest with that.
   * Download the <a href="#top">secsi_energy_monitor_production_lu.yaml</a> and the <a href="#top">secrets.yaml</a> to your PC.
   * If you're in Luxemburg, make sure you have your DSMR-Keys ready. In Luxemburg you can ask  your energy-provider for them per Mail.
@@ -39,7 +39,7 @@ You can buy a manufactured device here:
   * Adjust the secrets.yaml to your data (fill in wifi data and your dsmr-key)
     * On Windows you can use Notepad++ for this task, on linux use your favorite editor
     * Make sure you noted the path to your file, as you'll need it in the next step
-  * Run the ESPHOME commandline interface, and issue the run command on your downloaded config- and secrets.yaml https://esphome.io/guides/cli.html#run-command
+  * Run the ESPHome commandline interface, and issue the run command on your downloaded config- and secrets.yaml https://esphome.io/guides/cli.html#run-command
     * Follow the instructions of the interface, and pay special attention to log output
   * Plug the Board over USB-C cable to your PC
   * Use <a href="https://github.com/esphome/esphome-flasher">esphome-flasher</a> to flash the generated config on the board. Kindly refere to their how-to.

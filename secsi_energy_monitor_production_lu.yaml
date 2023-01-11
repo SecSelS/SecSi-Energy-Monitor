@@ -50,7 +50,8 @@ web_server:
 # As the p1 only has rx, only these are defined
 uart:
   - baud_rate: 115200
-    rx_pin: D7
+    number: GPIO16
+    inverted: true
     rx_buffer_size: 1700
     id: uart_p1_1
 # Here the second P1 UART is defined (just uncomment if you use

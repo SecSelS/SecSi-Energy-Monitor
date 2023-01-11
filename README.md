@@ -24,7 +24,6 @@ You can buy a manufactured device here:
   * P1 Port -> Directly get your supply from the P1 meter
   * POE -> Capable of POE powersupply
   * USB-C
-* Working with <a href="https://esphome.io/">ESPHome</a>, but you can use every ESP32 compatible software you want
 ###
 
   

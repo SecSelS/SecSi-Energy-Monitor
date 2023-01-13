@@ -51,14 +51,12 @@ web_server:
 uart:
   rx_pin:
     number: GPIO16
-    inverted: true
   baud_rate: 115200
   rx_buffer_size: 1700
   id: uart_p1_2
 # Here the second P1 UART is defined (just uncomment if you use
 #  rx_pin:
 #    number: GPIO3
-#    inverted: true
 #  baud_rate: 115200
 #  rx_buffer_size: 1700
 #  id: uart_p2_2

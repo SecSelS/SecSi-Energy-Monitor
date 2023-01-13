@@ -49,18 +49,19 @@ web_server:
 # Here the UART-Pins are defined for the p1 ports
 # As the p1 only has rx, only these are defined
 uart:
-  - baud_rate: 115200
+  rx_pin:
     number: GPIO16
     inverted: true
-    rx_buffer_size: 1700
-    id: uart_p1_1
+  baud_rate: 115200
+  rx_buffer_size: 1700
+  id: uart_p1_2
 # Here the second P1 UART is defined (just uncomment if you use
-# a second meter)
-#  - baud_rate: 115200
-#    rx_pin: GPIO3
+#  rx_pin:
+#    number: GPIO3
 #    inverted: true
-#    rx_buffer_size: 1700
-#    id: uart_p1_2
+#  baud_rate: 115200
+#  rx_buffer_size: 1700
+#  id: uart_p2_2
 
 dsmr:
 # here the dsmr for the first p1 port is defined

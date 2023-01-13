@@ -17,8 +17,8 @@ wifi:
   networks:
     - ssid: !secret wifi_ssid
       password: !secret wifi_password
-# If
-
+      
+# If you want to use ethernet (make sure to remove all wifi related settings)
 #ethernet:
 #  type: LAN8720
 #  mdc_pin: GPIO23

@@ -39,7 +39,7 @@ You can buy a manufactured device here:
   * Adjust the secrets.yaml to your data (fill in wifi data and your dsmr-key)
     * On Windows you can use Notepad++ for this task, on linux use your favorite editor
     * Make sure you noted the path to your file, as you'll need it in the next step
-  * Run the ESPHome commandline interface, and issue the run command on your downloaded config- and secrets.yaml https://esphome.io/guides/cli.html#run-command
+  * Run the ESPHome commandline interface, and issue the ```run esphome secsi_energy_monitor_production_lu.yaml compile``` in your downloaded config- and secrets.yaml folder and navigate to the <NODE_NAME>/.pioenvs/<NODE_NAME>/ folder. There you will find a firmware.bin file, this is the binary you will upload.
     * Follow the instructions of the interface, and pay special attention to log output
   * Plug the Board over USB-C cable to your PC
   * Use <a href="https://github.com/esphome/esphome-flasher">esphome-flasher</a> to flash the generated config on the board. Kindly refere to their how-to.

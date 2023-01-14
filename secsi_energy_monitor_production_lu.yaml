@@ -78,7 +78,7 @@ dsmr:
     decryption_key: !secret dsmr_key_p1_1
     max_telegram_length: 1700
     
-# Her the second P1 UART DSMR Key is defined (just uncomment if you use second DSMR encrypted p1)
+# Here the second P1 UART DSMR Key is defined (just uncomment if you use second DSMR encrypted P1 port)
 
 #  - uart_id: uart_p1_2
 #    id: dsmr_p1_2_key

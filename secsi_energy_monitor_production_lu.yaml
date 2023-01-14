@@ -161,8 +161,9 @@ sensor:
     name: "${device_name} Wi-Fi Signal"
     update_interval: 60s
     
-# For the usage of a second P1 Meter, make sure you define all sensors with the correct id you want to use 
-# on the second meter. See example below. Do the same for text_sensor:
+# For the usage of a second P1 Meter, make sure you define additional sensors with the correct id you want to use.
+# For every platform, you have to use a seperate dsmr id, matching the dsmr key of your plugged meter.
+# See example below. Do the same for text_sensor:
 
 #  - platform: dsmr
 #    dsmr_id: dsmr_p1_2_key

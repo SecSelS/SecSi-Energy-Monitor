@@ -6,7 +6,7 @@
 
 <a href="https://secsels.com">SecSelS.com</a> is a company specialized in installing, programming and inventing solutions, especially in the smart home sector. Together with <a href="http://hatrixelectronics.com">Hatrix Electronics</a>  and <a href="https://www.luxmetering.lu/">Luxmetering</a> we invented this board to hookup every P1 meter in Luxemburg and other countries having smart meters on the P1 standard. In light of the energy-crisis and to help everyone to make his or her home or business more sustainable, we decided to opensource this device and make it compatible not only with our smart home solution, but also with other opensource smart home systems. 
 
-You can buy a manufactured device here:
+You can buy a manufactured and CE-tested Version of the device for home and industry here:
 
 <a href="https://shop.secsels.com">shop.secsels.com</a>
   
@@ -49,7 +49,6 @@ You can buy a manufactured device here:
 ### Known issues, To be done and Limitations ###
   * ~~Because of the DSMR component and the encryption in Luxemburg, the second P1 port is not interpreted by ESPHome yet...You can use it only as passthrough at the moment.~~ A workaround has been implemented in the bottom of the YAML (thanks to @esphome/ssieb) see issue here: https://github.com/esphome/feature-requests/issues/2062
   * When you use Ethernet, GPIO17 is not usable for external sensors/actors. He than is used as CLK_OUT so this is expected.
-  * We're working on an enclosure, which will also be opensourced (metal and 3d-printer ready). You'll find the data here, and probably on Thingverse.
   * At the time of opensourcing this device, our onlineshop shop.secsels.com is not online yet. We give our best to sell as fast as possible to you! We'll keep you updated!
   
 ## Thank You! ##

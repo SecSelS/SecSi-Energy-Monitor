@@ -47,9 +47,7 @@ You can buy a manufactured and CE-tested Version of the device for home and indu
 ### Additional configuration ###
   * If you use a second P1 meter, make sure to set the jumpers right! Kindly refer to the hardware documentation in the repository, and the known issues for Luxemburg
 ### Known issues, To be done and Limitations ###
-  * ~~Because of the DSMR component and the encryption in Luxemburg, the second P1 port is not interpreted by ESPHome yet...You can use it only as passthrough at the moment.~~ A workaround has been implemented in the bottom of the YAML (thanks to @esphome/ssieb) see issue here: https://github.com/esphome/feature-requests/issues/2062
   * When you use Ethernet, GPIO17 is not usable for external sensors/actors. He than is used as CLK_OUT so this is expected.
-  * At the time of opensourcing this device, our onlineshop shop.secsels.com is not online yet. We give our best to sell as fast as possible to you! We'll keep you updated!
   
 ## Thank You! ##
   We wanted to thank the opensource-community and especially the developers of <a href="https://esphome.io/">ESPHome</a>, and of course our partner <a href="http://hatrixelectronics.com">Hatrix Electronics</a>! Without you, our device would not be possible! We hope that we can give back more to the community in the future. If you like our device, don't hesitate to star it =). If you don't want to configure it yourself, or have problems doing it, simply contact our company and we will find a way to help you =) -> https://secsels.com/kontakt/

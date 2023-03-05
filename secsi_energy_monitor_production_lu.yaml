@@ -1,11 +1,14 @@
 substitutions:
-  device_name: secsi-energy-monitor
+  name: secsi-energy-monitor
+  friendly_name: secsi-energy-monitor
   device_description: Energy meter by secsels.com
   ap_fallback_password: secsi-device
+  dashboard_import_url: github://SecSelS/SecSi-Energy-Monitor/secsi_energy_monitor_production_lu.yaml
      
 esphome:
-  name: ${device_name}
+  name: ${name}
   name_add_mac_suffix: false
+  friendly_name: ${friendly_name}
   comment: "${device_description}"
 
 esp32:
@@ -20,7 +23,7 @@ wifi:
  
 # Enable fallback hotspot (captive portal) in case wifi connection fails.
   ap:
-    ssid: ${device_name}
+    ssid: ${name}
     password: ${ap_fallback_password}
     ap_timeout: 15s
  
@@ -156,9 +159,9 @@ sensor:
 #      name: "Gas Consumed"
 #      state_class: total_increasing
   - platform: uptime
-    name: "${device_name} Uptime"
+    name: "${name} Uptime"
   - platform: wifi_signal
-    name: "${device_name} Wi-Fi Signal"
+    name: "${name} Wi-Fi Signal"
     update_interval: 60s
     
 # For the usage of a second P1 Meter, make sure you define additional sensors with the correct id you want to use.
@@ -198,10 +201,9 @@ text_sensor:
     name: "ESPHome Version"
     hide_timestamp: true
 
-# Workaround for the DSMR to work as list (see: https://github.com/esphome/feature-requests/issues/2062)
-external_components:
-  - source:
-      type: git
-      url: https://github.com/ssieb/esphome
-      ref: dsmr
-    components: [ dsmr ]
+# ESPHOME Updates
+dashboard_import:
+  package_import_url: ${dashboard_import_url}
+  import_full_config: false
+
+# For defining additional Sensors (ADC, Pulsecounters etc.) please look at the manual

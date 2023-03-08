@@ -3,7 +3,7 @@ substitutions:
   friendly_name: secsi-energy-monitor
   device_description: Energy meter by secsels.com
   ap_fallback_password: secsi-device
-  dashboard_import_url: github://SecSelS/SecSi-Energy-Monitor/secsi_energy_monitor_production_lu.yaml
+  dashboard_import_url: github://SecSelS/SecSi-Energy-Monitor/secsi_energy_monitor_production_lu.yaml@main
      
 esphome:
   name: ${name}

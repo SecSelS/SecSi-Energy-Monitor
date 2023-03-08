@@ -18,6 +18,10 @@ esp32:
 
 wifi:
 # Enable fallback hotspot (captive portal) in case wifi connection fails.
+# If you don't use dashboard_import, make sure to uncomment the wifi networks.
+#  networks:
+#    - ssid: !secret wifi_ssid
+#      password: !secret wifi_password
   ap:
     ssid: ${name}
     password: ${ap_fallback_password}

@@ -36,7 +36,7 @@ You can buy a manufactured and CE-tested Version of the device for home and indu
   * Download the <a href="#top">secsi_energy_monitor_production_lu.yaml</a> and the <a href="#top">secrets.yaml</a> to your PC.
   * If you're in Luxemburg, make sure you have your DSMR-Keys ready. In Luxemburg you can ask  your energy-provider for them per Mail.
   ### First Steps ###
-  * Adjust the secrets.yaml to your data (fill in wifi data and your dsmr-key)
+  * Adjust the secrets.yaml to your data (fill in wifi data and your dsmr-key). If you don't define wifi-networks yourself but use the dashboard_import function, make sure to delete the wifi secrets.
     * On Windows you can use Notepad++ for this task, on linux use your favorite editor
     * Make sure you noted the path to your file, as you'll need it in the next step
   * Run the ESPHome commandline interface, and issue the ```run esphome secsi_energy_monitor_production_lu.yaml compile``` in your downloaded config- and secrets.yaml folder and navigate to the <NODE_NAME>/.pioenvs/<NODE_NAME>/ folder. There you will find a firmware.bin file, this is the binary you will upload.

@@ -4,7 +4,7 @@
 </br>
 <h1 align="center" text-align="center" display="center"><a href="https://secsels.com"><img src="https://secsels.com/wp-content/uploads/2023/01/SecSi-Energy-Monitor.png" alt="SecSi Energy Monitor" width="600px"><a></h1>
 
-<a href="https://secsels.com">SecSelS.com</a> is a company specialized in installing, programming and inventing solutions, especially in the smart home sector. Together with <a href="http://hatrixelectronics.com">Hatrix Electronics</a>  and <a href="https://www.luxmetering.lu/">Luxmetering</a> we invented this board to hookup every P1 meter in Luxemburg and other countries having smart meters on the P1 standard. In light of the energy-crisis and to help everyone to make his or her home or business more sustainable, we decided to opensource this device and make it compatible not only with our smart home solution, but also with other opensource smart home systems. 
+<a href="https://secsels.com">SecSelS.com</a> is a company specialized in installing, programming and inventing solutions, especially in the smart home sector. Together with <a href="https://www.luxmetering.lu/">Luxmetering</a> we invented this board to hookup every P1 meter in Luxemburg and other countries having smart meters on the P1 standard. In light of the energy-crisis and to help everyone to make his or her home or business more sustainable, we decided to opensource this device and make it compatible not only with our smart home solution, but also with other opensource smart home systems. 
 
 You can buy a manufactured and CE-tested Version of the device for home and industry here:
 
